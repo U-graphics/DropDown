@@ -1,0 +1,107 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0em;
+  margin: 0em;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .dropdown-wrapper {
+  width: 30%;
+  background-color: #5700f8;
+  border-radius: 50px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+main .dropdown-wrapper .dropdown-btn {
+  background-color: #5700f8;
+  text-align: center;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 3rem rgba(0, 0, 0, 0.417);
+          box-shadow: 0 0 3rem rgba(0, 0, 0, 0.417);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+main .dropdown-wrapper .dropdown-btn:hover {
+  -webkit-box-shadow: 0 0 4rem rgba(0, 0, 0, 0.246);
+          box-shadow: 0 0 4rem rgba(0, 0, 0, 0.246);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+main .dropdown-wrapper .dropdown-body {
+  height: 0px;
+  overflow: auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+main .dropdown-wrapper .dropdown-body::-webkit-scrollbar {
+  display: none;
+}
+
+main .dropdown-wrapper .dropdown-body .row {
+  width: 100%;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .dropdown-wrapper .dropdown-body .row .card {
+  background-color: #fff;
+  margin: auto 0.5rem;
+  color: gray;
+  border-radius: 25px;
+}
+
+main .dropdown-wrapper .dropdown-body .row .card .card-img img {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 100%;
+}
+
+main .dropdown-wrapper .dropdown-body .row .card .card-body {
+  padding: 1rem 2rem;
+}
+
+.drop {
+  height: 800px !important;
+  padding: 3rem 2rem;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+/*# sourceMappingURL=style.css.map */
